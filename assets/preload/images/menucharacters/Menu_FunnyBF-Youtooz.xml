@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_FunnyBF-Youtooz.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FUNNY_STORY0000" x="100" y="100" width="632" height="680" frameX="0" frameY="-161" frameWidth="632" frameHeight="841"/>
+	<SubTexture name="FUNNY_STORY0001" x="832" y="100" width="532" height="777" frameX="-50" frameY="-64" frameWidth="632" frameHeight="841"/>
+	<SubTexture name="FUNNY_STORY0002" x="1464" y="100" width="488" height="820" frameX="-72" frameY="-21" frameWidth="632" frameHeight="841"/>
+	<SubTexture name="FUNNY_STORY0003" x="2052" y="100" width="470" height="836" frameX="-81" frameY="-5" frameWidth="632" frameHeight="841"/>
+	<SubTexture name="FUNNY_STORY0004" x="2622" y="100" width="466" height="841" frameX="-83" frameY="0" frameWidth="632" frameHeight="841"/>
+	<SubTexture name="FUNNY_STORY0005" x="3188" y="100" width="466" height="841" frameX="-83" frameY="0" frameWidth="632" frameHeight="841"/>
+	<SubTexture name="FUNNY_STORY0006" x="100" y="1041" width="466" height="841" frameX="-83" frameY="0" frameWidth="632" frameHeight="841"/>
+</TextureAtlas>

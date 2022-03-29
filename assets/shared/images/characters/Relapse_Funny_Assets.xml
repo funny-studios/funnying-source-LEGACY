@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Relapse_Funny_Assets.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FUNNY_DOWN0000" x="100" y="100" width="487" height="882" frameX="-40" frameY="0" frameWidth="890" frameHeight="897"/>
+	<SubTexture name="FUNNY_DOWN0001" x="687" y="100" width="503" height="770" frameX="0" frameY="-91" frameWidth="890" frameHeight="897"/>
+	<SubTexture name="FUNNY_DOWN0002" x="687" y="100" width="503" height="770" frameX="0" frameY="-91" frameWidth="890" frameHeight="897"/>
+	<SubTexture name="FUNNY_DOWN0003" x="1290" y="100" width="835" height="865" frameX="-55" frameY="-1" frameWidth="890" frameHeight="897"/>
+	<SubTexture name="FUNNY_DOWN0004" x="1290" y="100" width="835" height="865" frameX="-55" frameY="-1" frameWidth="890" frameHeight="897"/>
+	<SubTexture name="FUNNY_DOWN0005" x="100" y="100" width="487" height="882" frameX="-40" frameY="0" frameWidth="890" frameHeight="897"/>
+	<SubTexture name="FUNNY_DOWN0006" x="2225" y="100" width="472" height="897" frameX="-55" frameY="0" frameWidth="890" frameHeight="897"/>
+	<SubTexture name="FUNNY_IDLE0000" x="2797" y="100" width="550" height="623" frameX="0" frameY="-15" frameWidth="550" frameHeight="639"/>
+	<SubTexture name="FUNNY_IDLE0001" x="3447" y="100" width="521" height="639" frameX="-14" frameY="0" frameWidth="550" frameHeight="639"/>
+	<SubTexture name="FUNNY_IDLE0002" x="100" y="1097" width="529" height="635" frameX="-10" frameY="-4" frameWidth="550" frameHeight="639"/>
+	<SubTexture name="FUNNY_IDLE0003" x="729" y="1097" width="527" height="636" frameX="-11" frameY="-3" frameWidth="550" frameHeight="639"/>
+	<SubTexture name="FUNNY_IDLE0004" x="729" y="1097" width="527" height="636" frameX="-10" frameY="-3" frameWidth="550" frameHeight="639"/>
+	<SubTexture name="FUNNY_IDLE0005" x="729" y="1097" width="527" height="636" frameX="-10" frameY="-3" frameWidth="550" frameHeight="639"/>
+	<SubTexture name="FUNNY_IDLE0006" x="729" y="1097" width="527" height="636" frameX="-11" frameY="-3" frameWidth="550" frameHeight="639"/>
+	<SubTexture name="FUNNY_LEFT0000" x="1356" y="1097" width="647" height="705" frameX="0" frameY="-38" frameWidth="647" frameHeight="743"/>
+	<SubTexture name="FUNNY_LEFT0001" x="2103" y="1097" width="647" height="722" frameX="0" frameY="-21" frameWidth="647" frameHeight="743"/>
+	<SubTexture name="FUNNY_LEFT0002" x="2103" y="1097" width="647" height="722" frameX="0" frameY="-21" frameWidth="647" frameHeight="743"/>
+	<SubTexture name="FUNNY_LEFT0003" x="2850" y="1097" width="603" height="668" frameX="-40" frameY="0" frameWidth="647" frameHeight="743"/>
+	<SubTexture name="FUNNY_LEFT0004" x="2850" y="1097" width="603" height="668" frameX="-40" frameY="0" frameWidth="647" frameHeight="743"/>
+	<SubTexture name="FUNNY_LEFT0005" x="1356" y="1097" width="647" height="705" frameX="0" frameY="-38" frameWidth="647" frameHeight="743"/>
+	<SubTexture name="FUNNY_LEFT0006" x="100" y="1919" width="533" height="636" frameX="-73" frameY="-32" frameWidth="647" frameHeight="743"/>
+	<SubTexture name="FUNNY_RIGHT0000" x="733" y="1919" width="505" height="548" frameX="-94" frameY="-90" frameWidth="623" frameHeight="800"/>
+	<SubTexture name="FUNNY_RIGHT0001" x="1338" y="1919" width="467" height="499" frameX="-156" frameY="-44" frameWidth="623" frameHeight="800"/>
+	<SubTexture name="FUNNY_RIGHT0002" x="1338" y="1919" width="467" height="499" frameX="-156" frameY="-44" frameWidth="623" frameHeight="800"/>
+	<SubTexture name="FUNNY_RIGHT0003" x="1905" y="1919" width="575" height="662" frameX="0" frameY="-138" frameWidth="623" frameHeight="800"/>
+	<SubTexture name="FUNNY_RIGHT0004" x="1905" y="1919" width="575" height="662" frameX="0" frameY="-138" frameWidth="623" frameHeight="800"/>
+	<SubTexture name="FUNNY_RIGHT0005" x="733" y="1919" width="505" height="548" frameX="-94" frameY="-90" frameWidth="623" frameHeight="800"/>
+	<SubTexture name="FUNNY_RIGHT0006" x="2580" y="1919" width="533" height="635" frameX="-66" frameY="0" frameWidth="623" frameHeight="800"/>
+	<SubTexture name="FUNNY_UP0000" x="3213" y="1919" width="582" height="948"/>
+	<SubTexture name="FUNNY_UP0001" x="100" y="2967" width="553" height="778" frameX="-29" frameY="-146" frameWidth="582" frameHeight="948"/>
+	<SubTexture name="FUNNY_UP0002" x="100" y="2967" width="553" height="778" frameX="-29" frameY="-146" frameWidth="582" frameHeight="948"/>
+	<SubTexture name="FUNNY_UP0003" x="753" y="2967" width="466" height="771" frameX="-10" frameY="-79" frameWidth="582" frameHeight="948"/>
+	<SubTexture name="FUNNY_UP0004" x="753" y="2967" width="466" height="771" frameX="-10" frameY="-79" frameWidth="582" frameHeight="948"/>
+	<SubTexture name="FUNNY_UP0005" x="3213" y="1919" width="582" height="948"/>
+	<SubTexture name="FUNNY_UP0006" x="1319" y="2967" width="533" height="926" frameX="-2" frameY="-22" frameWidth="582" frameHeight="948"/>
+</TextureAtlas>

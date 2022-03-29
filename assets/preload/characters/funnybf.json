@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "FUNNY_IDLE"
+		},
+		{
+			"offsets": [
+				-16,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "FUNNY_LEFT"
+		},
+		{
+			"offsets": [
+				-5,
+				-100
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "FUNNY_DOWN"
+		},
+		{
+			"offsets": [
+				-39,
+				78
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "FUNNY_UP"
+		},
+		{
+			"offsets": [
+				-107,
+				8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "FUNNY_RIGHT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Funny_Boyfriend_Assets",
+	"position": [
+		-150,
+		170
+	],
+	"healthicon": "funnybf",
+	"flip_x": false,
+	"healthbar_colors": [
+		91,
+		175,
+		223
+	],
+	"camera_position": [
+		-50,
+		100
+	],
+	"sing_duration": 4,
+	"scale": 0.85
+}

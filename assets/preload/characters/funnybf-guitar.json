@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				117,
+				80
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "FUNNY_IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				324,
+				84
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "FUNNY_LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				-15
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "FUNNY_DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				326,
+				338
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "FUNNY_UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				123
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "FUNNY_RIGHT",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Guitar_Funny_Assets",
+	"position": [
+		0,
+		230
+	],
+	"healthicon": "funnybf",
+	"flip_x": false,
+	"healthbar_colors": [
+		91,
+		175,
+		223
+	],
+	"camera_position": [
+		-260,
+		30
+	],
+	"sing_duration": 4,
+	"scale": 0.85
+}

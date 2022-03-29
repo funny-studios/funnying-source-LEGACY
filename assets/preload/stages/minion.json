@@ -1,0 +1,8 @@
+{
+	"directory": "minion",
+	"defaultZoom": 1.1,
+
+	"boyfriend": [770, 100],
+	"girlfriend": [400, 170],
+	"opponent": [100, 170]
+}

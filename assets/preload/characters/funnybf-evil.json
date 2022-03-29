@@ -1,0 +1,148 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				195,
+				-90
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				85,
+				142
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-70,
+				30
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-80,
+				-5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-post",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				85,
+				142
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "down-post",
+			"indices": [
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				192,
+				32
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "horsecheese",
+			"loop": false,
+			"name": "horse cheese"
+		},
+		{
+			"offsets": [
+				192,
+				32
+			],
+			"indices": [
+				11,
+				12,
+				13,
+				14
+			],
+			"fps": 24,
+			"anim": "horsecheese-post",
+			"loop": true,
+			"name": "horse cheese"
+		},
+		{
+			"offsets": [
+				60,
+				320
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "scream",
+			"loop": false,
+			"name": "SCREAM AAAAAAA"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Kleptomaniac_Funny_Assets",
+	"position": [
+		-170,
+		110
+	],
+	"healthicon": "funnybf-evil",
+	"flip_x": false,
+	"healthbar_colors": [
+		143,
+		47,
+		33
+	],
+	"camera_position": [
+		-160,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

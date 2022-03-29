@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "ms_idle"
+		},
+		{
+			"offsets": [
+				-4,
+				53
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "ms_left"
+		},
+		{
+			"offsets": [
+				15,
+				-15
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "ms_down"
+		},
+		{
+			"offsets": [
+				46,
+				116
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "ms_up"
+		},
+		{
+			"offsets": [
+				0,
+				72
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "ms_right"
+		},
+		{
+			"offsets": [
+				40,
+				68
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "hey",
+			"loop": false,
+			"name": "ms_hey"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mspaint_bf_assets",
+	"position": [
+		-100,
+		210
+	],
+	"healthicon": "funnybf-ms",
+	"flip_x": true,
+	"healthbar_colors": [
+		239,
+		58,
+		47
+	],
+	"camera_position": [
+		-130,
+		30
+	],
+	"sing_duration": 4,
+	"scale": 0.85
+}

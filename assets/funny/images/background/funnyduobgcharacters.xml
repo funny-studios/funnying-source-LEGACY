@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="funnyduobgcharacters.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="background characters0000" x="100" y="100" width="1987" height="778" pivotX="43.15" pivotY="866.95" frameX="0" frameY="-88" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0001" x="2187" y="100" width="1989" height="777" frameX="0" frameY="-89" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0002" x="4276" y="100" width="1926" height="836" frameX="-31" frameY="-30" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0003" x="100" y="1036" width="1927" height="836" frameX="-31" frameY="-30" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0004" x="2127" y="1036" width="1905" height="855" frameX="-41" frameY="-11" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0005" x="4132" y="1036" width="1906" height="854" frameX="-41" frameY="-12" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0006" x="6138" y="1036" width="1901" height="866" frameX="-43" frameY="0" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0007" x="100" y="2002" width="1902" height="866" frameX="-43" frameY="0" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0008" x="6138" y="1036" width="1901" height="866" frameX="-43" frameY="0" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0009" x="100" y="2002" width="1902" height="866" frameX="-43" frameY="0" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0010" x="6138" y="1036" width="1901" height="866" frameX="-43" frameY="0" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0011" x="100" y="2002" width="1902" height="866" frameX="-43" frameY="0" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0012" x="6138" y="1036" width="1901" height="866" frameX="-43" frameY="0" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0013" x="100" y="2002" width="1902" height="866" frameX="-43" frameY="0" frameWidth="1989" frameHeight="866"/>
+	<SubTexture name="background characters0014" x="6138" y="1036" width="1901" height="866" frameX="-43" frameY="0" frameWidth="1989" frameHeight="866"/>
+</TextureAtlas>

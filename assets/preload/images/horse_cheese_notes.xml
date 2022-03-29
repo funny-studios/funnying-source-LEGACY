@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="horse_cheese_notes.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue hold piece0000" x="100" y="100" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="blue0000" x="174" y="100" width="157" height="154" pivotX="0" pivotY="0"/>
+	<SubTexture name="green hold piece0000" x="355" y="100" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="green0000" x="429" y="100" width="172" height="160" pivotX="8" pivotY="3"/>
+	<SubTexture name="pruple end hold0000" x="625" y="100" width="50" height="64" pivotX="0" pivotY="0"/>
+	<SubTexture name="purple0000" x="699" y="100" width="155" height="169" pivotX="1" pivotY="7"/>
+	<SubTexture name="purple hold piece0000" x="878" y="100" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="red hold piece0000" x="952" y="100" width="50" height="44" pivotX="0" pivotY="0"/>
+	<SubTexture name="red0000" x="1026" y="100" width="154" height="157" pivotX="0" pivotY="0"/>
+</TextureAtlas>

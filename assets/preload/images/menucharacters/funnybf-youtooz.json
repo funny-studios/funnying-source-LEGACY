@@ -1,0 +1,10 @@
+{
+	"idle_anim": "FUNNY_STORY",
+	"image": "Menu_FunnyBF-Youtooz",
+	"position": [
+		200,
+		225
+	],
+	"scale": 0.4,
+	"confirm_anim": "FUNNY_STORY"
+}

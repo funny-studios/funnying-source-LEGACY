@@ -1,0 +1,8 @@
+{
+	"directory": "squidstage",
+	"defaultZoom": 0.85,
+
+	"boyfriend": [900, 100],
+	"girlfriend": [400, 130],
+	"opponent": [150, 130]
+}

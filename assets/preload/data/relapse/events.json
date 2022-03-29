@@ -1,0 +1,286 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Set Zoom Type",
+						"2",
+						""
+					],
+					[
+						"Vignette",
+						"true",
+						""
+					],
+					[
+						"Change Default Zoom",
+						".3",
+						""
+					],
+					[
+						"Sustain Shake",
+						".0025",
+						".005"
+					],
+					[
+						"Add Camera Zoom",
+						".6",
+						".5"
+					],
+					[
+						"Flash Camera",
+						"1",
+						"0xFF000000"
+					]
+				]
+			],
+			[
+				4800,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				9600,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				14400,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				19200,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				28800,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				33600,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				38400,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				43200,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				52800,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				57600,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				62400,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				67200,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				76800,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				81600,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				86400,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				91200,
+				[
+					[
+						"Add Camera Zoom",
+						".1",
+						".05"
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Sustain Shake",
+						".001",
+						".001"
+					],
+					[
+						"Change Default Zoom",
+						".15",
+						""
+					]
+				]
+			],
+			[
+				115200,
+				[
+					[
+						"Change Default Zoom",
+						"",
+						""
+					],
+					[
+						"Change Character Visibility",
+						"dad",
+						"false"
+					],
+					[
+						"Flash Camera",
+						"1",
+						"0xFF000000"
+					],
+					[
+						"Set Zoom Type",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				144000,
+				[
+					[
+						"Sustain Shake",
+						"",
+						""
+					],
+					[
+						"Vignette",
+						"false",
+						""
+					]
+				]
+			]
+		]
+	}
+}

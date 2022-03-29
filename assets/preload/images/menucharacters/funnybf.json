@@ -1,0 +1,10 @@
+{
+	"idle_anim": "FUNNY_STORY",
+	"image": "Menu_FunnyBF",
+	"position": [
+		200,
+		125
+	],
+	"scale": 0.55,
+	"confirm_anim": "FUNNY_STORY"
+}

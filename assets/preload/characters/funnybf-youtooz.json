@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "FUNNY_IDLE"
+		},
+		{
+			"offsets": [
+				34,
+				46
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "FUNNY_LEFT"
+		},
+		{
+			"offsets": [
+				55,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "FUNNY_DOWN"
+		},
+		{
+			"offsets": [
+				-54,
+				80
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "FUNNY_UP"
+		},
+		{
+			"offsets": [
+				-70,
+				66
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "FUNNY_RIGHT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/YouTooz_Funny_Assets",
+	"position": [
+		-150,
+		30
+	],
+	"healthicon": "funnybf-youtooz",
+	"flip_x": false,
+	"healthbar_colors": [
+		121,
+		215,
+		253
+	],
+	"camera_position": [
+		-40,
+		150
+	],
+	"sing_duration": 4,
+	"scale": 0.7
+}

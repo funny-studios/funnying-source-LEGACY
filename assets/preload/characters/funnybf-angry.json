@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				117,
+				80
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "FUNNY_IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				129,
+				159
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "FUNNY_LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				125,
+				-25
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "FUNNY_DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				81,
+				183
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "FUNNY_UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				64,
+				232
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "FUNNY_RIGHT",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Angry_Funny_Assets",
+	"position": [
+		0,
+		230
+	],
+	"healthicon": "funnybf-angry",
+	"flip_x": false,
+	"healthbar_colors": [
+		229,
+		110,
+		96
+	],
+	"camera_position": [
+		-180,
+		80
+	],
+	"sing_duration": 4,
+	"scale": 0.85
+}

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MBest_Assets.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MBEST_DOWN0000" x="100" y="100" width="341" height="409" frameX="0" frameY="-56" frameWidth="341" frameHeight="465"/>
+	<SubTexture name="MBEST_DOWN0001" x="541" y="100" width="311" height="443" frameX="-15" frameY="-22" frameWidth="341" frameHeight="465"/>
+	<SubTexture name="MBEST_DOWN0002" x="952" y="100" width="298" height="458" frameX="-21" frameY="-7" frameWidth="341" frameHeight="465"/>
+	<SubTexture name="MBEST_DOWN0003" x="1350" y="100" width="292" height="464" frameX="-24" frameY="-1" frameWidth="341" frameHeight="465"/>
+	<SubTexture name="MBEST_DOWN0004" x="1742" y="100" width="291" height="465" frameX="-25" frameY="0" frameWidth="341" frameHeight="465"/>
+	<SubTexture name="MBEST_DOWN0005" x="2133" y="100" width="291" height="465" frameX="-25" frameY="0" frameWidth="341" frameHeight="465"/>
+	<SubTexture name="MBEST_DOWN0006" x="2524" y="100" width="291" height="465" frameX="-25" frameY="0" frameWidth="341" frameHeight="465"/>
+	<SubTexture name="MBEST_IDLE0000" x="2915" y="100" width="336" height="413" frameX="0" frameY="-52" frameWidth="336" frameHeight="465"/>
+	<SubTexture name="MBEST_IDLE0001" x="3351" y="100" width="302" height="445" frameX="-17" frameY="-20" frameWidth="336" frameHeight="465"/>
+	<SubTexture name="MBEST_IDLE0002" x="100" y="665" width="288" height="459" frameX="-24" frameY="-6" frameWidth="336" frameHeight="465"/>
+	<SubTexture name="MBEST_IDLE0003" x="488" y="665" width="282" height="464" frameX="-27" frameY="-1" frameWidth="336" frameHeight="465"/>
+	<SubTexture name="MBEST_IDLE0004" x="870" y="665" width="280" height="465" frameX="-28" frameY="0" frameWidth="336" frameHeight="465"/>
+	<SubTexture name="MBEST_IDLE0005" x="1250" y="665" width="280" height="465" frameX="-28" frameY="0" frameWidth="336" frameHeight="465"/>
+	<SubTexture name="MBEST_IDLE0006" x="1630" y="665" width="280" height="465" frameX="-28" frameY="0" frameWidth="336" frameHeight="465"/>
+	<SubTexture name="MBEST_LEFT0000" x="2010" y="665" width="270" height="467" frameX="-15" frameY="0" frameWidth="309" frameHeight="467"/>
+	<SubTexture name="MBEST_LEFT0001" x="2380" y="665" width="293" height="450" frameX="-6" frameY="-17" frameWidth="309" frameHeight="467"/>
+	<SubTexture name="MBEST_LEFT0002" x="2773" y="665" width="304" height="442" frameX="-2" frameY="-25" frameWidth="309" frameHeight="467"/>
+	<SubTexture name="MBEST_LEFT0003" x="3177" y="665" width="308" height="439" frameX="0" frameY="-28" frameWidth="309" frameHeight="467"/>
+	<SubTexture name="MBEST_LEFT0004" x="3585" y="665" width="309" height="438" frameX="0" frameY="-29" frameWidth="309" frameHeight="467"/>
+	<SubTexture name="MBEST_LEFT0005" x="100" y="1232" width="309" height="438" frameX="0" frameY="-29" frameWidth="309" frameHeight="467"/>
+	<SubTexture name="MBEST_LEFT0006" x="509" y="1232" width="309" height="438" frameX="0" frameY="-29" frameWidth="309" frameHeight="467"/>
+	<SubTexture name="MBEST_RIGHT0000" x="918" y="1232" width="253" height="471" frameX="-34" frameY="0" frameWidth="309" frameHeight="471"/>
+	<SubTexture name="MBEST_RIGHT0001" x="1271" y="1232" width="287" height="452" frameX="-13" frameY="-19" frameWidth="309" frameHeight="471"/>
+	<SubTexture name="MBEST_RIGHT0002" x="1658" y="1232" width="302" height="443" frameX="-4" frameY="-28" frameWidth="309" frameHeight="471"/>
+	<SubTexture name="MBEST_RIGHT0003" x="2060" y="1232" width="307" height="440" frameX="-1" frameY="-31" frameWidth="309" frameHeight="471"/>
+	<SubTexture name="MBEST_RIGHT0004" x="2467" y="1232" width="309" height="439" frameX="0" frameY="-32" frameWidth="309" frameHeight="471"/>
+	<SubTexture name="MBEST_RIGHT0005" x="2876" y="1232" width="309" height="439" frameX="0" frameY="-32" frameWidth="309" frameHeight="471"/>
+	<SubTexture name="MBEST_RIGHT0006" x="3285" y="1232" width="309" height="439" frameX="0" frameY="-32" frameWidth="309" frameHeight="471"/>
+	<SubTexture name="MBEST_UP0000" x="3694" y="1232" width="185" height="500" frameX="-20" frameY="0" frameWidth="225" frameHeight="501"/>
+	<SubTexture name="MBEST_UP0001" x="100" y="1832" width="209" height="479" frameX="-8" frameY="-21" frameWidth="225" frameHeight="501"/>
+	<SubTexture name="MBEST_UP0002" x="409" y="1832" width="220" height="469" frameX="-2" frameY="-31" frameWidth="225" frameHeight="501"/>
+	<SubTexture name="MBEST_UP0003" x="729" y="1832" width="224" height="466" frameX="0" frameY="-34" frameWidth="225" frameHeight="501"/>
+	<SubTexture name="MBEST_UP0004" x="1053" y="1832" width="225" height="466" frameX="0" frameY="-35" frameWidth="225" frameHeight="501"/>
+	<SubTexture name="MBEST_UP0005" x="1378" y="1832" width="225" height="465" frameX="0" frameY="-35" frameWidth="225" frameHeight="501"/>
+	<SubTexture name="MBEST_UP0006" x="1703" y="1832" width="225" height="465" frameX="0" frameY="-35" frameWidth="225" frameHeight="501"/>
+</TextureAtlas>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Pink_Soldier_Assets.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="PINKSOLDIER_DOWN0000" x="100" y="100" width="507" height="394" frameX="0" frameY="-155" frameWidth="507" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_DOWN0001" x="707" y="100" width="429" height="487" frameX="-34" frameY="-62" frameWidth="507" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_DOWN0002" x="1236" y="100" width="393" height="529" frameX="-50" frameY="-20" frameWidth="507" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_DOWN0003" x="1729" y="100" width="381" height="545" frameX="-55" frameY="-4" frameWidth="507" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_DOWN0004" x="2210" y="100" width="377" height="549" frameX="-57" frameY="0" frameWidth="507" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_DOWN0005" x="1543" y="749" width="376" height="549" frameX="-57" frameY="0" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_DOWN0006" x="1543" y="749" width="376" height="549" frameX="-57" frameY="0" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_IDLE0000" x="2687" y="100" width="455" height="470" frameX="0" frameY="-79" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_IDLE0001" x="3242" y="100" width="408" height="517" frameX="-23" frameY="-32" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_IDLE0002" x="100" y="749" width="387" height="539" frameX="-34" frameY="-10" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_IDLE0003" x="587" y="749" width="379" height="547" frameX="-38" frameY="-2" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_IDLE0004" x="1066" y="749" width="377" height="549" frameX="-39" frameY="0" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_IDLE0005" x="1543" y="749" width="376" height="549" frameX="-39" frameY="0" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_IDLE0006" x="1543" y="749" width="376" height="549" frameX="-39" frameY="0" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_LEFT0000" x="2019" y="749" width="313" height="617" frameX="0" frameY="0" frameWidth="425" frameHeight="618"/>
+	<SubTexture name="PINKSOLDIER_LEFT0001" x="2432" y="749" width="347" height="579" frameX="-33" frameY="-39" frameWidth="425" frameHeight="618"/>
+	<SubTexture name="PINKSOLDIER_LEFT0002" x="2879" y="749" width="366" height="560" frameX="-44" frameY="-58" frameWidth="425" frameHeight="618"/>
+	<SubTexture name="PINKSOLDIER_LEFT0003" x="3345" y="749" width="374" height="552" frameX="-48" frameY="-65" frameWidth="425" frameHeight="618"/>
+	<SubTexture name="PINKSOLDIER_LEFT0004" x="100" y="2183" width="376" height="550" frameX="-49" frameY="-67" frameWidth="376" frameHeight="597"/>
+	<SubTexture name="PINKSOLDIER_LEFT0005" x="1543" y="749" width="376" height="549" frameX="-49" frameY="-67" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_LEFT0006" x="1543" y="749" width="376" height="549" frameX="-49" frameY="-67" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_RIGHT0000" x="100" y="1466" width="315" height="617" frameX="-85" frameY="0" frameWidth="400" frameHeight="618"/>
+	<SubTexture name="PINKSOLDIER_RIGHT0001" x="515" y="1466" width="347" height="579" frameX="-34" frameY="-39" frameWidth="400" frameHeight="618"/>
+	<SubTexture name="PINKSOLDIER_RIGHT0002" x="962" y="1466" width="366" height="560" frameX="-11" frameY="-58" frameWidth="400" frameHeight="618"/>
+	<SubTexture name="PINKSOLDIER_RIGHT0003" x="1428" y="1466" width="374" height="552" frameX="-2" frameY="-65" frameWidth="400" frameHeight="618"/>
+	<SubTexture name="PINKSOLDIER_RIGHT0004" x="100" y="2183" width="376" height="550" frameX="0" frameY="-67" frameWidth="376" frameHeight="597"/>
+	<SubTexture name="PINKSOLDIER_RIGHT0005" x="1543" y="749" width="376" height="549" frameX="0" frameY="-67" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_RIGHT0006" x="1543" y="749" width="376" height="549" frameX="0" frameY="-67" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_UP0000" x="1902" y="1466" width="265" height="597" frameX="-55" frameY="0" frameWidth="376" frameHeight="597"/>
+	<SubTexture name="PINKSOLDIER_UP0001" x="2267" y="1466" width="331" height="569" frameX="-22" frameY="-28" frameWidth="376" frameHeight="597"/>
+	<SubTexture name="PINKSOLDIER_UP0002" x="2698" y="1466" width="362" height="556" frameX="-7" frameY="-41" frameWidth="376" frameHeight="597"/>
+	<SubTexture name="PINKSOLDIER_UP0003" x="3160" y="1466" width="373" height="551" frameX="-1" frameY="-46" frameWidth="376" frameHeight="597"/>
+	<SubTexture name="PINKSOLDIER_UP0004" x="100" y="2183" width="376" height="550" frameX="0" frameY="-47" frameWidth="376" frameHeight="597"/>
+	<SubTexture name="PINKSOLDIER_UP0005" x="1543" y="749" width="376" height="549" frameX="0" frameY="-47" frameWidth="455" frameHeight="549"/>
+	<SubTexture name="PINKSOLDIER_UP0006" x="1543" y="749" width="376" height="549" frameX="0" frameY="-47" frameWidth="455" frameHeight="549"/>
+</TextureAtlas>

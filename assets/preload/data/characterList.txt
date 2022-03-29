@@ -1,0 +1,14 @@
+bf
+gf
+bf-compressed
+gf-compressed
+funnybf
+funnybf-angry
+funnybf-evil
+funnybf-relapse
+funnybf-guitar
+funnybf-youtooz
+funnybf-mspaint
+minion
+mbest
+pinksoldier

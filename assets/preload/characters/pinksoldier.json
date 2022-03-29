@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "PINKSOLDIER_IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				10,
+				61
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "PINKSOLDIER_LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				15,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "PINKSOLDIER_DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-38,
+				61
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "PINKSOLDIER_RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				42
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "PINKSOLDIER_UP",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Pink_Soldier_Assets",
+	"position": [
+		0,
+		120
+	],
+	"healthicon": "mbest",
+	"flip_x": false,
+	"healthbar_colors": [
+		227,
+		187,
+		167
+	],
+	"camera_position": [
+		-160,
+		100
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

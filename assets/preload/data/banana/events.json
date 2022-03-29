@@ -1,0 +1,111 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Set Zoom Type",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				10105.2631578947,
+				[
+					[
+						"Set Zoom Type",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				30315.7894736842,
+				[
+					[
+						"Set Zoom Type",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				40421.0526315789,
+				[
+					[
+						"Set Zoom Type",
+						"2",
+						""
+					]
+				]
+			],
+			[
+				80842.1052631578,
+				[
+					[
+						"Set Zoom Type",
+						"0",
+						""
+					],
+					[
+						"Change Default Zoom",
+						".35",
+						""
+					]
+				]
+			],
+			[
+				90947.3684210525,
+				[
+					[
+						"Set Zoom Type",
+						"2",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						".05",
+						".1"
+					],
+					[
+						"Change Default Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				101052.631578947,
+				[
+					[
+						"Add Camera Zoom",
+						"-.1",
+						"-.2"
+					],
+					[
+						"Flash Camera",
+						"1",
+						"0xFFFFFFFF"
+					],
+					[
+						"Change Character Visibility",
+						"dad",
+						"false"
+					],
+					[
+						"Camera Follow Pos",
+						"300",
+						"400"
+					],
+					[
+						"Set Zoom Type",
+						"0",
+						""
+					]
+				]
+			]
+		]
+	}
+}

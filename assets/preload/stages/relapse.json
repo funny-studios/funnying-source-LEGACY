@@ -1,0 +1,8 @@
+{
+	"directory": "funny",
+	"defaultZoom": 1,
+
+	"boyfriend": [1650, 150],
+	"girlfriend": [0, 0],
+	"opponent": [1000, 325]
+}

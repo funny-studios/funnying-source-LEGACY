@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="funnyduofgcharacters.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="foreground characters0000" x="100" y="100" width="2089" height="702" pivotX="35.6" pivotY="698"/>
+	<SubTexture name="foreground characters0001" x="2289" y="100" width="2089" height="702"/>
+	<SubTexture name="foreground characters0002" x="4478" y="100" width="2053" height="700" frameX="-18" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0003" x="100" y="902" width="2054" height="700" frameX="-17" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0004" x="2254" y="902" width="2033" height="699" frameX="-28" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0005" x="4387" y="902" width="2034" height="698" frameX="-27" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0006" x="100" y="1702" width="2019" height="698" frameX="-35" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0007" x="2219" y="1702" width="2018" height="698" frameX="-35" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0008" x="100" y="1702" width="2019" height="698" frameX="-35" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0009" x="2219" y="1702" width="2018" height="698" frameX="-35" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0010" x="100" y="1702" width="2019" height="698" frameX="-35" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0011" x="2219" y="1702" width="2018" height="698" frameX="-35" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0012" x="100" y="1702" width="2019" height="698" frameX="-35" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0013" x="2219" y="1702" width="2018" height="698" frameX="-35" frameY="0" frameWidth="2089" frameHeight="702"/>
+	<SubTexture name="foreground characters0014" x="100" y="1702" width="2019" height="698" frameX="-35" frameY="0" frameWidth="2089" frameHeight="702"/>
+</TextureAtlas>
