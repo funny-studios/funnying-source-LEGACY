@@ -165,6 +165,7 @@ class Note extends FlxSprite
 		{
 			alpha = .6;
 			multAlpha = .6;
+
 			if (ClientPrefs.downScroll) flipY = true;
 
 			offsetX += width / 2;

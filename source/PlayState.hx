@@ -857,7 +857,7 @@ class PlayState extends MusicBeatState
 		botplayTxt.x -= 7.5;
 		add(botplayTxt);
 
-		if (ClientPrefs.downScroll) botplayTxt.y = timeBarBG.y - 78;
+		if (ClientPrefs.downScroll) botplayTxt.y = timeBarBG.y - 118;
 		if (worldStrumLineNotes != null)
 		{
 			worldStrumLineNotes.cameras = [camGame];
@@ -1813,6 +1813,7 @@ class PlayState extends MusicBeatState
 				if (dunceNote.noteType == 'Alt Animation' && !dunceNote.mustPress && worldNotes != null)
 				{
 					dunceNote.reloadNote('', 'Pink_Note_Assets');
+					dunceNote.flipY = false;
 
 					dunceNote.scrollFactor.set(1, 1);
 					worldNotes.insert(0, dunceNote);
@@ -1936,8 +1937,8 @@ class PlayState extends MusicBeatState
 				// daNote.y = (strumLine.y - (songTime - daNote.strumTime) * (.45 * songSpeed));
 
 				var doKill:Bool = daNote.y < -daNote.height;
-				if (ClientPrefs.downScroll) doKill = daNote.y > FlxG.height;
 
+				if (ClientPrefs.downScroll) doKill = daNote.y > FlxG.height;
 				if (ClientPrefs.keSustains && daNote.isSustainNote && daNote.wasGoodHit) doKill = true;
 
 				if (doKill)
@@ -1995,9 +1996,7 @@ class PlayState extends MusicBeatState
 					if (daNote.wasGoodHit && !daNote.ignoreNote) opponentNoteHit(daNote);
 					var doKill:Bool = daNote.y < -daNote.height;
 
-					if (ClientPrefs.downScroll) doKill = daNote.y > FlxG.height;
 					if (ClientPrefs.keSustains && daNote.isSustainNote && daNote.wasGoodHit) doKill = true;
-
 					if (doKill)
 					{
 						daNote.active = false;
@@ -2249,11 +2248,13 @@ class PlayState extends MusicBeatState
 						subtitlesTxt.updateHitbox();
 						subtitlesTxt.screenCenter();
 
-						var subtitlesY:Float = (healthBar.height + scoreTxt.height + subtitlesTxt.borderSize);
+						var subtitlesY:Float = (healthBar.height + scoreTxt.height + subtitlesTxt.borderSize) * 2;
+						var subtitlesSize:Float = subtitlesTxt.size;
+
 						subtitlesTxt.y = switch (ClientPrefs.downScroll)
 						{
-							case true: (subtitlesTxt.height + subtitlesTxt.size + (scoreTxt.height / 2)) - subtitlesY;
-							default: FlxG.height - subtitlesTxt.size - (subtitlesY * 2) - subtitlesTxt.height;
+							default: FlxG.height - subtitlesSize - subtitlesY - subtitlesTxt.height;
+							case true: subtitlesY + (subtitlesSize * 1.5);
 						};
 
 						subtitlesTxt.color = FlxColor.fromRGB(char.healthColorArray[0], char.healthColorArray[1], char.healthColorArray[2]);
@@ -3455,7 +3456,11 @@ class PlayState extends MusicBeatState
 		super.beatHit();
 
 		if (lastBeatHit >= curBeat) return;
-		if (generatedMusic) notes.sort(FlxSort.byY, ClientPrefs.downScroll ? FlxSort.ASCENDING : FlxSort.DESCENDING);
+		if (generatedMusic)
+		{
+			if (worldNotes != null) worldNotes.sort(FlxSort.byY, FlxSort.DESCENDING);
+			notes.sort(FlxSort.byY, ClientPrefs.downScroll ? FlxSort.ASCENDING : FlxSort.DESCENDING);
+		}
 
 		var curBar:Int = Std.int(curStep / 16);
 		var curNote:SwagSection = SONG.notes[curBar];
