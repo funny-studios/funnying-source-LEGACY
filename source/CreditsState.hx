@@ -51,6 +51,7 @@ class CreditsState extends MusicBeatState
 			['Mickey Toots',		'mickey_tots',		'Composer\n[ Funny Guy Snog, Funny Duo ]',				'https://twitter.com/MickeyToots_',		'E94649'],
 			['Joker',				'joker',			'Composer\n[ Intestinal Failure ]',						'https://twitter.com/gko_jo',			'FFFFFF'],
 			['Ochi',				'ochi',				'Composer\n[ Braindead ]',								'https://twitter.com/ochirealochi',		'FFAFCA'],
+			['Joelx5',				'joel',				'Original creator of the Funny BF character art',		'https://www.deviantart.com/joelbrunomanrique',	'D41D22'],
 			['Mr Beast',			'mr_breast',		'Mr Beast',												'https://twitter.com/MrBeast',			'F2D3B5'],
 			[''],
 			['Psych Engine Team'],

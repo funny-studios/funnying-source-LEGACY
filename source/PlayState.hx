@@ -84,21 +84,13 @@ class PlayState extends MusicBeatState
 	//event variables
 	private var isCameraOnForcedPos:Bool = false;
 	#if (haxe >= "4.0.0")
-	public var modchartTweens:Map<String, FlxTween> = new Map();
-	public var modchartTimers:Map<String, FlxTimer> = new Map();
-	public var modchartSounds:Map<String, FlxSound> = new Map();
-
-	public var boyfriendMap:Map<String, Character> = new Map();
-	public var dadMap:Map<String, Character> = new Map();
-	public var gfMap:Map<String, Character> = new Map();
+	public var modchartTweens:Array<FlxTween> = new Array();
+	public var modchartTimers:Array<FlxTimer> = new Array();
+	//public var modchartSounds:Map<String, FlxSound> = new Map();
 	#else
-	public var modchartTweens:Map<String, FlxTween> = new Map<String, FlxTween>();
-	public var modchartTimers:Map<String, FlxTimer> = new Map<String, FlxTimer>();
-	public var modchartSounds:Map<String, FlxSound> = new Map<String, FlxSound>();
-
-	public var boyfriendMap:Map<String, Character> = new Map<String, Character>();
-	public var dadMap:Map<String, Character> = new Map<String, Character>();
-	public var gfMap:Map<String, Character> = new Map<String, Character>();
+	public var modchartTweens:Array<FlxTween> = new Array<FlxTween>();
+	public var modchartTimers:Array<FlxTimer> = new Array<FlxTimer>();
+	//public var modchartSounds:Map<String, FlxSound> = new Map<String, FlxSound>();
 	#end
 
 	public var stageData:StageFile;
@@ -1112,6 +1104,25 @@ class PlayState extends MusicBeatState
 		}
 	}
 
+	function cleanupTween(?twn:FlxTween)
+	{
+		if (modchartTweens.contains(twn)) modchartTweens.remove(twn);
+		//if (twn != null && twn.finished && twn.active)
+		//{
+		//	twn.active = false;
+		//	twn.destroy();
+		//}
+	}
+	function cleanupTimer(?tmr:FlxTimer)
+	{
+		if (modchartTimers.contains(tmr)) modchartTimers.remove(tmr);
+		//if (tmr != null && tmr.finished && tmr.active)
+		//{
+		//	tmr.active = false;
+		//	tmr.destroy();
+		//}
+	}
+
 	public function startCountdown():Void
 	{
 		if (startedCountdown) return;
@@ -1178,7 +1189,7 @@ class PlayState extends MusicBeatState
 				countdownImage.screenCenter();
 
 				countdownImage.alpha = 1;
-				FlxTween.tween(countdownImage, { alpha: 0 }, Conductor.crochet / 1000, {
+				modchartTweens.push(FlxTween.tween(countdownImage, { alpha: 0 }, Conductor.crochet / 1000, {
 					ease: FlxEase.cubeInOut,
 					onComplete: function(twn:FlxTween)
 					{
@@ -1186,9 +1197,11 @@ class PlayState extends MusicBeatState
 						{
 							remove(countdownImage);
 							countdownImage.destroy();
+							cleanupTimer(tmr);
 						}
+						cleanupTween(twn);
 					}
-				});
+				}));
 			}
 			FlxG.sound.play(Paths.sound('intro${loopsLeft <= 0 ? 'Go' : Std.string(loopsLeft)}$introAssetsSuffix'), .6);
 		}, 4);
@@ -1233,8 +1246,8 @@ class PlayState extends MusicBeatState
 		// Song duration in a float, useful for the time left feature
 		songLength = FlxG.sound.music.length;
 
-		FlxTween.tween(timeBar, {alpha: 1}, 0.5, { ease: FlxEase.circOut });
-		FlxTween.tween(timeTxt, {alpha: 1}, 0.5, { ease: FlxEase.circOut });
+		modchartTweens.push(FlxTween.tween(timeBar, { alpha: 1 }, 0.5, { ease: FlxEase.circOut, onComplete: cleanupTween }));
+		modchartTweens.push(FlxTween.tween(timeTxt, { alpha: 1 }, 0.5, { ease: FlxEase.circOut, onComplete: cleanupTween }));
 
 		#if (desktop && !neko)
 		// Updating Discord Rich Presence (with Time Left)
@@ -1490,7 +1503,7 @@ class PlayState extends MusicBeatState
 				babyArrow.y -= 10;
 				babyArrow.alpha = 0;
 
-				FlxTween.tween(babyArrow, {y: babyArrow.y + 10, alpha: targetAlpha}, 1, {ease: FlxEase.circOut, startDelay: .5 + (.2 * i)});
+				modchartTweens.push(FlxTween.tween(babyArrow, { y: babyArrow.y + 10, alpha: targetAlpha }, 1, { ease: FlxEase.circOut, startDelay: .5 + (.2 * i), onComplete: cleanupTween }));
 			}
 
 			switch (player)
@@ -1532,6 +1545,7 @@ class PlayState extends MusicBeatState
 			}
 
 			if (!startTimer.finished) startTimer.active = false;
+
 			if (finishTimer != null && !finishTimer.finished) finishTimer.active = false;
 			if (songSpeedTween != null) songSpeedTween.active = false;
 
@@ -1544,12 +1558,8 @@ class PlayState extends MusicBeatState
 				}
 			}
 
-			for (tween in modchartTweens) {
-				tween.active = false;
-			}
-			for (timer in modchartTimers) {
-				timer.active = false;
-			}
+			for (tween in modchartTweens) tween.active = false;
+			for (timer in modchartTimers) timer.active = false;
 		}
 
 		super.openSubState(SubState);
@@ -2203,11 +2213,13 @@ class PlayState extends MusicBeatState
 					popup.scrollFactor.set();
 					popup.alpha = .7;
 
-					FlxTween.tween(popup, { alpha: 1, "scale.x": 1, "scale.y": 1 }, 1 / 4, { ease: FlxEase.cubeOut, onComplete: function(twn:FlxTween) {
-						new FlxTimer().start(4, function(tmr:FlxTimer) {
-							FlxTween.tween(popup, { alpha: 0, "scale.x": .8, "scale.y": .8 }, 1 / 4, { ease: FlxEase.cubeOut, onComplete: function(twn:FlxTween) { remove(popup); popup.destroy(); }});
-						});
-					}, onUpdate: function(twn:FlxTween) { popup.updateHitbox(); popup.screenCenter(); popup.offset.set(offsetX, offsetY); }} );
+					modchartTweens.push(FlxTween.tween(popup, { alpha: 1, "scale.x": 1, "scale.y": 1 }, 1 / 4, { ease: FlxEase.cubeOut, onComplete: function(twn:FlxTween) {
+						modchartTimers.push(new FlxTimer().start(4, function(tmr:FlxTimer) {
+							modchartTweens.push(FlxTween.tween(popup, { alpha: 0, "scale.x": .8, "scale.y": .8 }, 1 / 4, { ease: FlxEase.cubeOut, onComplete: function(twn:FlxTween) { remove(popup); popup.destroy(); cleanupTween(twn); }}));
+							cleanupTimer(tmr);
+						}));
+						cleanupTween(twn);
+					}, onUpdate: function(twn:FlxTween) { popup.updateHitbox(); popup.screenCenter(); popup.offset.set(offsetX, offsetY); }} ));
 
 					add(popup);
 					FlxG.sound.play(Paths.sound('disconnect'));
@@ -2227,7 +2239,7 @@ class PlayState extends MusicBeatState
 					var next:Dynamic = timerExtensions[0];
 
 					FlxTween.cancelTweensOf(timeTxt);
-					FlxTween.num(maskedSongLength, (next != null && next > 0) ? next : songLength, Conductor.crochet / 1000, { ease: FlxEase.quintIn }, tweenMask.bind(timeTxt));
+					modchartTweens.push(FlxTween.num(maskedSongLength, (next != null && next > 0) ? next : songLength, Conductor.crochet / 1000, { ease: FlxEase.quintIn, onComplete: cleanupTween }, tweenMask.bind(timeTxt)));
 				}
 			}
 			case 'Subtitles':
@@ -2483,6 +2495,7 @@ class PlayState extends MusicBeatState
 						function (twn:FlxTween)
 						{
 							songSpeedTween = null;
+							cleanupTween(twn);
 						}
 					});
 				}
@@ -2526,6 +2539,7 @@ class PlayState extends MusicBeatState
 					function (twn:FlxTween)
 					{
 						cameraTwn = null;
+						cleanupTween(twn);
 					}
 				});
 			}
@@ -2537,6 +2551,7 @@ class PlayState extends MusicBeatState
 			cameraTwn = FlxTween.tween(FlxG.camera, {zoom: 1.3}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.elasticInOut, onComplete:
 				function (twn:FlxTween) {
 					cameraTwn = null;
+					cleanupTween(twn);
 				}
 			});
 		}
@@ -2562,6 +2577,7 @@ class PlayState extends MusicBeatState
 		} else {
 			finishTimer = new FlxTimer().start(ClientPrefs.noteOffset / 1000, function(tmr:FlxTimer) {
 				finishCallback();
+				cleanupTimer(tmr);
 			});
 		}
 	}
@@ -2774,6 +2790,7 @@ class PlayState extends MusicBeatState
 				scoreTxtTween = FlxTween.tween(scoreTxt.scale, {x: 1, y: 1}, 0.2, {
 					onComplete: function(twn:FlxTween) {
 						scoreTxtTween = null;
+						cleanupTween(twn);
 					}
 				});
 			}
@@ -2850,10 +2867,10 @@ class PlayState extends MusicBeatState
 			numScore.visible = !ClientPrefs.hideHud;
 
 			if (combo >= 10 || combo == 0) insert(members.indexOf(strumLineNotes), numScore);
-			FlxTween.tween(numScore, { alpha: 0 }, 0.2, {
-				onComplete: function(tween:FlxTween) { numScore.destroy(); },
+			modchartTweens.push(FlxTween.tween(numScore, { alpha: 0 }, 0.2, {
+				onComplete: function(tween:FlxTween) { numScore.destroy(); cleanupTween(tween); },
 				startDelay: Conductor.crochet / 500
-			});
+			}));
 			daLoop++;
 		}
 		/*
@@ -2864,17 +2881,18 @@ class PlayState extends MusicBeatState
 		coolText.text = Std.string(seperatedScore);
 		// add(coolText);
 
-		FlxTween.tween(rating, { alpha: 0 }, 0.2, { startDelay: Conductor.crochet / 1000 });
-		FlxTween.tween(comboSpr, { alpha: 0 }, 0.2, {
+		modchartTweens.push(FlxTween.tween(rating, { alpha: 0 }, 0.2, { startDelay: Conductor.crochet / 1000, onComplete: cleanupTween }));
+		modchartTweens.push(FlxTween.tween(comboSpr, { alpha: 0 }, 0.2, {
 			onComplete: function(tween:FlxTween)
 			{
 				coolText.destroy();
 				comboSpr.destroy();
 
 				rating.destroy();
+				cleanupTween(tween);
 			},
 			startDelay: Conductor.crochet / 1000
-		});
+		}));
 	}
 
 	public function getFormattedSong(?getRating:Bool = true)
@@ -3242,7 +3260,7 @@ class PlayState extends MusicBeatState
 							dad.playAnim('horsecheese', true);
 							dad.specialAnim = true;
 						}
-						new FlxTimer().start(1 / 20, function(tmr:FlxTimer) {
+						modchartTimers.push(new FlxTimer().start(1 / 20, function(tmr:FlxTimer) {
 							if (horseImages != null)
 							{
 								var roll:String = FlxG.random.getObject(horseImages);
@@ -3266,19 +3284,19 @@ class PlayState extends MusicBeatState
 								horsey.alpha = FlxG.random.float(.9);
 								add(horsey);
 
-								FlxTween.tween(horsey, { alpha: 0 }, FlxG.random.float(5, 20), { ease: FlxEase.sineInOut, onComplete: function(twn:FlxTween) {
+								modchartTweens.push(FlxTween.tween(horsey, { alpha: 0 }, FlxG.random.float(5, 20), { ease: FlxEase.sineInOut, onComplete: function(twn:FlxTween) {
 									remove(horsey);
-
 									horsey.destroy();
-									twn.destroy();
-								} });
+									cleanupTween(twn);
+								} }));
 							}
 							if (boyfriend.animOffsets.exists('hurt'))
 							{
 								boyfriend.playAnim('hurt', true);
 								boyfriend.specialAnim = true;
 							}
-						});
+							cleanupTimer(tmr);
+						}));
 					}
 				}
 
@@ -3487,11 +3505,11 @@ class PlayState extends MusicBeatState
 			iconP1.scale.set(scaleDefault, scaleDefault + (scaleValue * stretchValuePlayer));
 			iconP2.scale.set(scaleDefault, scaleDefault + (scaleValue * stretchValueOpponent));
 
-			FlxTween.angle(iconP1, -angleValue, 0, Conductor.crochet / (crochetDiv * gfSpeed), { ease: FlxEase.quadOut });
-			FlxTween.angle(iconP2, angleValue, 0, Conductor.crochet / (crochetDiv * gfSpeed), { ease: FlxEase.quadOut });
+			modchartTweens.push(FlxTween.angle(iconP1, -angleValue, 0, Conductor.crochet / (crochetDiv * gfSpeed), { ease: FlxEase.quadOut, onComplete: cleanupTween }));
+			modchartTweens.push(FlxTween.angle(iconP2, angleValue, 0, Conductor.crochet / (crochetDiv * gfSpeed), { ease: FlxEase.quadOut, onComplete: cleanupTween }));
 
-			FlxTween.tween(iconP1, {'scale.x': 1, 'scale.y': 1}, Conductor.crochet / (crochetDiv * gfSpeed), { ease: FlxEase.quadOut });
-			FlxTween.tween(iconP2, {'scale.x': 1, 'scale.y': 1}, Conductor.crochet / (crochetDiv * gfSpeed), { ease: FlxEase.quadOut });
+			modchartTweens.push(FlxTween.tween(iconP1, {'scale.x': 1, 'scale.y': 1}, Conductor.crochet / (crochetDiv * gfSpeed), { ease: FlxEase.quadOut, onComplete: cleanupTween }));
+			modchartTweens.push(FlxTween.tween(iconP2, {'scale.x': 1, 'scale.y': 1}, Conductor.crochet / (crochetDiv * gfSpeed), { ease: FlxEase.quadOut, onComplete: cleanupTween }));
 
 			iconP1.updateHitbox();
 			iconP2.updateHitbox();
@@ -3526,7 +3544,7 @@ class PlayState extends MusicBeatState
 				if (curBeat >= 252 && !bananaStrumsHidden)
 				{
 					bananaStrumsHidden = true;
-					for (strumNote in opponentStrums.members) FlxTween.tween(strumNote, { alpha: 0 }, Conductor.crochet / 500, { ease: FlxEase.cubeIn });
+					for (strumNote in opponentStrums.members) modchartTweens.push(FlxTween.tween(strumNote, { alpha: 0 }, Conductor.crochet / 500, { ease: FlxEase.cubeIn, onComplete: cleanupTween }));
 				}
 			}
 		}
