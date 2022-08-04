@@ -1,22 +1,38 @@
 {
 	"songs": [
-		["Gastric Bypass", "funnybf", [91, 175, 223]],
-		["Roided", "funnybf-angry", [229, 110, 96]],
-		["Kleptomaniac", "funnybf-evil", [143, 47, 33]]
-	],
-
-	"weekCharacters": [
-		"funnybf",
-		"bf",
-		"gf"
+		[
+			"Gastric Bypass",
+			"funnybf",
+			[
+				91,
+				175,
+				223
+			]
+		],
+		[
+			"Roided",
+			"funnybf-angry",
+			[
+				229,
+				110,
+				96
+			]
+		],
+		[
+			"Kleptomaniac",
+			"funnybf-evil",
+			[
+				143,
+				47,
+				33
+			]
+		]
 	],
 	"weekBackground": "nutsakc",
-
 	"storyName": "funny week",
 	"weekBefore": "tutorial",
-	"weekName": "balls",
+	"weekName": "funny",
 	"startUnlocked": true,
-
 	"hideStoryMode": false,
 	"hideFreeplay": false
 }

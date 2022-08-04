@@ -1,23 +1,39 @@
 {
 	"songs": [
-		["Cervix", "funnybf-youtooz", [121, 215, 253]],
-		["Intestinal Failure", "funnybf-angry", [229, 110, 96]],
-		["Funny Duo", "funnybf", [91, 175, 223]]
-	],
-
-	"weekCharacters": [
-		"funnybf-youtooz",
-		"bf",
-		"gf"
+		[
+			"Cervix",
+			"funnybf-youtooz",
+			[
+				121,
+				215,
+				253
+			]
+		],
+		[
+			"Intestinal Failure",
+			"funnybf-angry",
+			[
+				229,
+				110,
+				96
+			]
+		],
+		[
+			"Funny Duo",
+			"funnybf",
+			[
+				91,
+				175,
+				223
+			]
+		]
 	],
 	"difficulties": "Normal,Raw",
 	"weekBackground": "duofart",
-
 	"storyName": "what the fuck its the multiple boyfrend week holky sfuckijng shit im going ltierally isnane im going to kill 7 kiods in an orphanagwe and set a walmart on fir",
 	"weekBefore": "funny",
-	"weekName": "te trio",
+	"weekName": "duo week",
 	"startUnlocked": false,
-
 	"hideStoryMode": false,
 	"hideFreeplay": false
 }

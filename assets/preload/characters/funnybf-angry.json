@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				117,
-				80
+				0,
+				0
 			],
+			"loop": false,
 			"anim": "idle",
 			"fps": 24,
-			"name": "FUNNY_IDLE",
+			"name": "idle",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				129,
-				159
+				35,
+				124
 			],
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "FUNNY_LEFT",
+			"name": "left",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				125,
-				-25
+				-261,
+				-226
 			],
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "FUNNY_DOWN",
+			"name": "down",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				81,
-				183
+				-51,
+				146
 			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "FUNNY_UP",
+			"name": "up",
 			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				64,
-				232
+				-107,
+				107
 			],
 			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "FUNNY_RIGHT",
+			"name": "right",
 			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/Angry_Funny_Assets",
+	"image": "characters/Angry_Boyfriend_Remastered",
 	"position": [
-		0,
-		230
+		-540,
+		30
 	],
 	"healthicon": "funnybf-angry",
 	"flip_x": false,
@@ -70,9 +70,9 @@
 		96
 	],
 	"camera_position": [
-		-180,
-		80
+		290,
+		350
 	],
 	"sing_duration": 4,
-	"scale": 0.85
+	"scale": 0.4
 }

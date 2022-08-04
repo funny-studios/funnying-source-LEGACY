@@ -1,0 +1,30 @@
+{
+	"directory": "kong",
+	"defaultZoom": 0.9,
+	"boyfriend": [
+		1200,
+		800
+	],
+	"girlfriend": [
+		0,
+		0
+	],
+	"opponent": [
+		700,
+		800
+	],
+	"hide_girlfriend": true,
+	"camera_boyfriend": [
+		-100,
+		-100
+	],
+	"camera_opponent": [
+		100,
+		-100
+	],
+	"camera_girlfriend": [
+		0,
+		0
+	],
+	"camera_speed": 2
+}

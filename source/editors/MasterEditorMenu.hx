@@ -1,25 +1,23 @@
 package editors;
 
-#if (desktop && !neko)
 import Discord.DiscordClient;
-#end
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxGridOverlay;
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.math.FlxMath;
+import flixel.system.FlxSound;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
-import flixel.system.FlxSound;
-
+#if sys
+import sys.FileSystem;
+#end
 using StringTools;
 
 class MasterEditorMenu extends MusicBeatState
 {
 	var options:Array<String> = [
-		'Week Editor',
-		'Menu Character Editor',
 		'Dialogue Editor',
 		'Dialogue Portrait Editor',
 		'Character Editor',
@@ -35,10 +33,8 @@ class MasterEditorMenu extends MusicBeatState
 	override function create()
 	{
 		FlxG.camera.bgColor = FlxColor.BLACK;
-		#if (desktop && !neko)
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("Editors Main Menu", null);
-		#end
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.scrollFactor.set();
@@ -63,10 +59,13 @@ class MasterEditorMenu extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-		var delta:Int = CoolUtil.getDelta(controls.UI_DOWN_P, controls.UI_UP_P);
-		if (delta != 0)
+		if (controls.UI_UP_P)
 		{
-			changeSelection(delta);
+			changeSelection(-1);
+		}
+		if (controls.UI_DOWN_P)
+		{
+			changeSelection(1);
 		}
 
 		if (controls.BACK)
@@ -76,24 +75,18 @@ class MasterEditorMenu extends MusicBeatState
 
 		if (controls.ACCEPT)
 		{
-			switch(options[curSelected]) {
+			switch (options[curSelected])
+			{
 				case 'Character Editor':
-					LoadingState.loadAndSwitchState(new CharacterEditorState(Character.DEFAULT_CHARACTER, false));
-				case 'Week Editor':
-					MusicBeatState.switchState(new WeekEditorState());
-				case 'Menu Character Editor':
-					MusicBeatState.switchState(new MenuCharacterEditorState());
+					LoadingState.loadAndSwitchState(new CharacterEditorState(Character.DEFAULT_CHARACTER, false), false, true);
 				case 'Dialogue Portrait Editor':
-					LoadingState.loadAndSwitchState(new DialogueCharacterEditorState(), false);
+					LoadingState.loadAndSwitchState(new DialogueCharacterEditorState(), false, true);
 				case 'Dialogue Editor':
-					LoadingState.loadAndSwitchState(new DialogueEditorState(), false);
-				case 'Chart Editor'://felt it would be cool maybe
-					LoadingState.loadAndSwitchState(new ChartingState(), false);
+					LoadingState.loadAndSwitchState(new DialogueEditorState(), false, true);
+				case 'Chart Editor': // felt it would be cool maybe
+					LoadingState.loadAndSwitchState(new ChartingState(), false, true);
 			}
 			FlxG.sound.music.volume = 0;
-			#if PRELOAD_ALL
-			FreeplayState.destroyFreeplayVocals();
-			#end
 		}
 
 		var bullShit:Int = 0;
@@ -116,7 +109,7 @@ class MasterEditorMenu extends MusicBeatState
 
 	function changeSelection(change:Int = 0)
 	{
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
+		FlxG.sound.play(Paths.sound('scrollMenu'), .4);
 		curSelected = CoolUtil.repeat(curSelected, change, options.length);
 	}
 }

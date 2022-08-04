@@ -1,7 +1,6 @@
 package;
 
 import Controls;
-import flixel.FlxCamera;
 import flixel.FlxG;
 import flixel.util.FlxSignal;
 
@@ -44,7 +43,7 @@ class PlayerSettings
 		controls.setKeyboardScheme(scheme);
 	}
 
-	/* 
+	/*
 		static public function addAvatar(avatar:Player):PlayerSettings
 		{
 			var settings:PlayerSettings;

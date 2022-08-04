@@ -62,12 +62,12 @@
 			],
 			"loop": true,
 			"fps": 24,
-			"anim": "idle-post",
+			"anim": "idle-loop",
 			"indices": [
+				10,
+				11,
 				12,
-				13,
-				14,
-				15
+				13
 			],
 			"name": "idle"
 		},
@@ -78,12 +78,12 @@
 			],
 			"loop": true,
 			"fps": 24,
-			"anim": "down-post",
+			"anim": "down-loop",
 			"indices": [
+				10,
 				11,
 				12,
-				13,
-				14
+				13
 			],
 			"name": "down"
 		},
@@ -104,13 +104,13 @@
 				32
 			],
 			"indices": [
+				10,
 				11,
 				12,
-				13,
-				14
+				13
 			],
 			"fps": 24,
-			"anim": "horsecheese-post",
+			"anim": "horsecheese-loop",
 			"loop": true,
 			"name": "horse cheese"
 		},

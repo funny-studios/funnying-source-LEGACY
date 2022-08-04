@@ -1,279 +1,6 @@
 {
 	"song": {
 		"player1": "bf",
-		"events": [
-			[
-				0,
-				[
-					[
-						"Subtitles",
-						"hello its me am going to beat you,",
-						"dad"
-					]
-				]
-			],
-			[
-				4000,
-				[
-					[
-						"Subtitles",
-						"no you wont am-a-go get a treat",
-						"bf"
-					]
-				]
-			],
-			[
-				8000,
-				[
-					[
-						"Subtitles",
-						"we are in sqiwd game, no one can beat me",
-						"dad"
-					]
-				]
-			],
-			[
-				12000,
-				[
-					[
-						"Subtitles",
-						"you are lame i cant believe you dont see that",
-						"bf"
-					]
-				]
-			],
-			[
-				16000,
-				[
-					[
-						"Subtitles",
-						"red light",
-						"dad"
-					]
-				]
-			],
-			[
-				20000,
-				[
-					[
-						"Subtitles",
-						"green light",
-						"bf"
-					]
-				]
-			],
-			[
-				24000,
-				[
-					[
-						"Subtitles",
-						"both: SQUID GAMES !!!",
-						"dad"
-					]
-				]
-			],
-			[
-				28000,
-				[
-					[
-						"Subtitles",
-						"i got squid game",
-						"dad"
-					]
-				]
-			],
-			[
-				32000,
-				[
-					[
-						"Subtitles",
-						"ITS-A ME you can win",
-						"bf"
-					]
-				]
-			],
-			[
-				36000,
-				[
-					[
-						"Subtitles",
-						"yeah i can i got a fan ",
-						"dad"
-					]
-				]
-			],
-			[
-				40000,
-				[
-					[
-						"Subtitles",
-						"that wont save you my man",
-						"bf"
-					]
-				]
-			],
-			[
-				44000,
-				[
-					[
-						"Subtitles",
-						"hello im pink soldier",
-						"gf"
-					]
-				]
-			],
-			[
-				46000,
-				[
-					[
-						"Subtitles",
-						"i got a tan",
-						"dad"
-					]
-				]
-			],
-			[
-				48000,
-				[
-					[
-						"Subtitles",
-						"am about to give you a ban, form life",
-						"bf"
-					]
-				]
-			],
-			[
-				52000,
-				[
-					[
-						"Subtitles",
-						"",
-						""
-					]
-				]
-			],
-			[
-				68000,
-				[
-					[
-						"Subtitles",
-						"helo im pink soldier",
-						"gf"
-					]
-				]
-			],
-			[
-				72000,
-				[
-					[
-						"Subtitles",
-						"no",
-						"bf"
-					]
-				]
-			],
-			[
-				76000,
-				[
-					[
-						"Subtitles",
-						"yes",
-						"gf"
-					]
-				]
-			],
-			[
-				77000,
-				[
-					[
-						"Subtitles",
-						"sqiud game duo",
-						"dad"
-					]
-				]
-			],
-			[
-				78000,
-				[
-					[
-						"Subtitles",
-						"all: no",
-						"bf"
-					]
-				]
-			],
-			[
-				80000,
-				[
-					[
-						"Subtitles",
-						"yes",
-						"gf"
-					]
-				]
-			],
-			[
-				84000,
-				[
-					[
-						"Subtitles",
-						"you suck at rapping and i will beat you",
-						"bf"
-					]
-				]
-			],
-			[
-				88000,
-				[
-					[
-						"Subtitles",
-						"am-a rest",
-						"dad"
-					]
-				]
-			],
-			[
-				92000,
-				[
-					[
-						"Subtitles",
-						"am the best",
-						"bf"
-					]
-				]
-			],
-			[
-				96000,
-				[
-					[
-						"Subtitles",
-						"im will win since your lame",
-						"dad"
-					]
-				]
-			],
-			[
-				100000,
-				[
-					[
-						"Subtitles",
-						"no i will since i have all the fame",
-						"bf"
-					]
-				]
-			],
-			[
-				104000,
-				[
-					[
-						"Subtitles",
-						"",
-						""
-					]
-				]
-			]
-		],
-		"gfVersion": "gf",
 		"notes": [
 			{
 				"sectionNotes": [
@@ -298,7 +25,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -324,7 +51,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -350,7 +77,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -376,7 +103,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -402,7 +129,7 @@
 						187.5
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -428,7 +155,7 @@
 						187.5
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -454,7 +181,7 @@
 						187.5
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -480,7 +207,7 @@
 						187.5
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -526,7 +253,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -572,29 +299,14 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
 					[
-						10000,
-						0,
-						0
-					],
-					[
 						10125,
 						2,
-						0
-					],
-					[
-						10250,
-						1,
-						0
-					],
-					[
-						10375,
-						3,
 						0
 					],
 					[
@@ -616,9 +328,24 @@
 						10875,
 						2,
 						0
+					],
+					[
+						10000,
+						1,
+						0
+					],
+					[
+						10250,
+						3,
+						0
+					],
+					[
+						10375,
+						0,
+						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -664,7 +391,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -710,7 +437,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -756,7 +483,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -802,7 +529,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -848,7 +575,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -894,7 +621,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -940,7 +667,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -986,7 +713,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -1032,7 +759,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -1078,7 +805,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -1124,7 +851,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -1170,7 +897,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -1216,7 +943,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -1302,7 +1029,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -1388,7 +1115,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -1474,7 +1201,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -1555,7 +1282,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -1601,7 +1328,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -1647,7 +1374,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -1693,7 +1420,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -1706,11 +1433,6 @@
 					[
 						31125,
 						0,
-						0
-					],
-					[
-						31250,
-						1,
 						0
 					],
 					[
@@ -1737,9 +1459,14 @@
 						31875,
 						0,
 						0
+					],
+					[
+						31250,
+						2,
+						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -1785,7 +1512,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -1831,7 +1558,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -1877,7 +1604,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -1923,7 +1650,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -1949,7 +1676,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -1995,7 +1722,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -2041,7 +1768,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -2087,7 +1814,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -2113,7 +1840,7 @@
 						187.5
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -2159,7 +1886,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -2205,7 +1932,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -2251,7 +1978,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -2260,94 +1987,94 @@
 						44000,
 						3,
 						0,
-						"Alt Animation"
-					],
-					[
-						44750,
-						1,
-						187.5,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						44125,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						44250,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						44375,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						44500,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						44625,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
+					],
+					[
+						44750,
+						1,
+						187.5,
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
 					[
-						45750,
-						0,
-						187.5,
-						"Alt Animation"
-					],
-					[
 						45000,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						45125,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						45250,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						45375,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						45500,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						45625,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
+					],
+					[
+						45750,
+						0,
+						187.5,
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -2355,93 +2082,53 @@
 					[
 						46000,
 						3,
-						0
-					],
-					[
-						46000,
-						3,
 						0,
-						"Alt Animation"
-					],
-					[
-						46125,
-						1,
-						0
+						"Both Opponents Note"
 					],
 					[
 						46125,
 						1,
 						0,
-						"Alt Animation"
-					],
-					[
-						46250,
-						1,
-						0
+						"Both Opponents Note"
 					],
 					[
 						46250,
 						1,
 						0,
-						"Alt Animation"
-					],
-					[
-						46375,
-						3,
-						0
+						"Both Opponents Note"
 					],
 					[
 						46375,
 						3,
 						0,
-						"Alt Animation"
-					],
-					[
-						46500,
-						1,
-						0
+						"Both Opponents Note"
 					],
 					[
 						46500,
 						1,
 						0,
-						"Alt Animation"
-					],
-					[
-						46625,
-						2,
-						0
+						"Both Opponents Note"
 					],
 					[
 						46625,
 						2,
 						0,
-						"Alt Animation"
-					],
-					[
-						46750,
-						3,
-						0
+						"Both Opponents Note"
 					],
 					[
 						46750,
 						3,
 						0,
-						"Alt Animation"
-					],
-					[
-						46875,
-						1,
-						0
+						"Both Opponents Note"
 					],
 					[
 						46875,
 						1,
 						0,
-						"Alt Animation"
+						"Both Opponents Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -2449,93 +2136,53 @@
 					[
 						47000,
 						0,
-						0
-					],
-					[
-						47000,
 						0,
-						0,
-						"Alt Animation"
-					],
-					[
-						47125,
-						2,
-						0
+						"Both Opponents Note"
 					],
 					[
 						47125,
 						2,
 						0,
-						"Alt Animation"
-					],
-					[
-						47250,
-						0,
-						0
+						"Both Opponents Note"
 					],
 					[
 						47250,
 						0,
 						0,
-						"Alt Animation"
-					],
-					[
-						47375,
-						1,
-						0
-					],
-					[
-						47375,
-						1,
-						0,
-						"Alt Animation"
-					],
-					[
-						47500,
-						3,
-						0
-					],
-					[
-						47500,
-						3,
-						0,
-						"Alt Animation"
-					],
-					[
-						47625,
-						1,
-						0
-					],
-					[
-						47625,
-						1,
-						0,
-						"Alt Animation"
-					],
-					[
-						47750,
-						2,
-						0
+						"Both Opponents Note"
 					],
 					[
 						47750,
 						2,
 						0,
-						"Alt Animation"
+						"Both Opponents Note"
 					],
 					[
-						47875,
-						3,
-						0
+						47375,
+						0,
+						0,
+						"Both Opponents Note"
 					],
 					[
-						47875,
+						47500,
+						1,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						47625,
 						3,
 						0,
-						"Alt Animation"
+						"Both Opponents Note"
+					],
+					[
+						47875,
+						0,
+						0,
+						"Both Opponents Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -2576,7 +2223,7 @@
 						187.5
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -2617,7 +2264,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -2663,7 +2310,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -2709,87 +2356,87 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -2798,52 +2445,52 @@
 						68000,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						68125,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						68250,
 						1,
 						0,
-						"Alt Animation"
-					],
-					[
-						68375,
-						3,
-						0,
-						"Alt Animation"
-					],
-					[
-						68500,
-						2,
-						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						68625,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						68750,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						68875,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
+					],
+					[
+						68375,
+						1,
+						0,
+						"Duo Note"
+					],
+					[
+						68500,
+						3,
+						0,
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -2852,46 +2499,46 @@
 						69000,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						69125,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						69250,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						69375,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						69500,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						69625,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						69750,
 						1,
 						187.5,
-						"Alt Animation"
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -2900,46 +2547,52 @@
 						70000,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						70125,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						70375,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
+					],
+					[
+						70250,
+						3,
+						0,
+						"Duo Note"
 					],
 					[
 						70500,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						70625,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						70750,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						70875,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -2948,52 +2601,52 @@
 						71000,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						71125,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						71250,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						71375,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						71500,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						71625,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						71750,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						71875,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -3039,7 +2692,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -3047,21 +2700,6 @@
 					[
 						73000,
 						1,
-						0
-					],
-					[
-						73125,
-						0,
-						0
-					],
-					[
-						73250,
-						2,
-						0
-					],
-					[
-						73375,
-						0,
 						0
 					],
 					[
@@ -3078,9 +2716,24 @@
 						73750,
 						3,
 						187.5
+					],
+					[
+						73250,
+						1,
+						0
+					],
+					[
+						73125,
+						2,
+						0
+					],
+					[
+						73375,
+						2,
+						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -3126,7 +2779,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -3172,55 +2825,55 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [
 					[
-						76750,
-						2,
-						187.5,
-						"Alt Animation"
-					],
-					[
-						76625,
+						76250,
 						0,
 						0,
-						"Alt Animation"
-					],
-					[
-						76500,
-						1,
-						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						76375,
-						3,
 						0,
-						"Alt Animation"
+						0,
+						"Duo Note"
 					],
 					[
 						76125,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						76000,
+						3,
 						0,
-						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
-						76250,
+						76500,
+						1,
 						0,
+						"Duo Note"
+					],
+					[
+						76625,
+						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
+					],
+					[
+						76750,
+						2,
+						187.5,
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -3261,37 +2914,15 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
 					[
 						78000,
-						5,
-						0
-					],
-					[
-						78000,
 						1,
 						0
-					],
-					[
-						78000,
-						5,
-						0,
-						"Alt Animation"
-					],
-					[
-						78125,
-						7,
-						0
-					],
-					[
-						78125,
-						7,
-						0,
-						"Alt Animation"
 					],
 					[
 						78125,
@@ -3300,30 +2931,8 @@
 					],
 					[
 						78250,
-						4,
-						0
-					],
-					[
-						78250,
-						4,
-						0,
-						"Alt Animation"
-					],
-					[
-						78250,
 						0,
 						0
-					],
-					[
-						78375,
-						5,
-						0
-					],
-					[
-						78375,
-						5,
-						0,
-						"Alt Animation"
 					],
 					[
 						78375,
@@ -3332,30 +2941,8 @@
 					],
 					[
 						78500,
-						4,
-						0
-					],
-					[
-						78500,
 						0,
 						0
-					],
-					[
-						78500,
-						4,
-						0,
-						"Alt Animation"
-					],
-					[
-						78625,
-						7,
-						0
-					],
-					[
-						78625,
-						7,
-						0,
-						"Alt Animation"
 					],
 					[
 						78625,
@@ -3364,23 +2951,7 @@
 					],
 					[
 						78750,
-						4,
-						0
-					],
-					[
-						78750,
-						4,
 						0,
-						"Alt Animation"
-					],
-					[
-						78750,
-						0,
-						0
-					],
-					[
-						78875,
-						7,
 						0
 					],
 					[
@@ -3389,43 +2960,63 @@
 						0
 					],
 					[
+						78000,
+						5,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						78375,
+						5,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						78125,
+						7,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						78250,
+						4,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						78500,
+						4,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						78625,
+						7,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						78750,
+						4,
+						0,
+						"Both Opponents Note"
+					],
+					[
 						78875,
 						7,
 						0,
-						"Alt Animation"
+						"Both Opponents Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
 				"sectionNotes": [
 					[
 						79000,
-						5,
-						0
-					],
-					[
-						79000,
 						1,
 						0
-					],
-					[
-						79000,
-						5,
-						0,
-						"Alt Animation"
-					],
-					[
-						79125,
-						7,
-						0
-					],
-					[
-						79125,
-						7,
-						0,
-						"Alt Animation"
 					],
 					[
 						79125,
@@ -3434,30 +3025,8 @@
 					],
 					[
 						79250,
-						4,
-						0
-					],
-					[
-						79250,
 						0,
 						0
-					],
-					[
-						79250,
-						4,
-						0,
-						"Alt Animation"
-					],
-					[
-						79375,
-						5,
-						0
-					],
-					[
-						79375,
-						5,
-						0,
-						"Alt Animation"
 					],
 					[
 						79375,
@@ -3466,64 +3035,78 @@
 					],
 					[
 						79500,
-						4,
-						0
-					],
-					[
-						79500,
 						0,
 						0
-					],
-					[
-						79500,
-						4,
-						0,
-						"Alt Animation"
-					],
-					[
-						79625,
-						7,
-						0
-					],
-					[
-						79625,
-						7,
-						0,
-						"Alt Animation"
 					],
 					[
 						79625,
 						3,
 						0
+					],
+					[
+						79750,
+						6,
+						0
+					],
+					[
+						79750,
+						2,
+						0
+					],
+					[
+						79875,
+						6,
+						0
+					],
+					[
+						79875,
+						2,
+						0
+					],
+					[
+						79000,
+						5,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						79125,
+						7,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						79250,
+						4,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						79375,
+						5,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						79500,
+						4,
+						0,
+						"Both Opponents Note"
+					],
+					[
+						79625,
+						7,
+						0,
+						"Both Opponents Note"
 					],
 					[
 						79750,
 						5,
 						187.5,
-						"Alt Animation"
-					],
-					[
-						79750,
-						6,
-						0
-					],
-					[
-						79750,
-						2,
-						0
-					],
-					[
-						79875,
-						6,
-						0
-					],
-					[
-						79875,
-						2,
-						0
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -3532,28 +3115,28 @@
 						80000,
 						3,
 						187.5,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						80250,
 						1,
 						187.5,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						80500,
 						2,
 						187.5,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						80750,
 						0,
 						187.5,
-						"Alt Animation"
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -3562,148 +3145,148 @@
 						81000,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						81125,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						81250,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						81375,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						81500,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						81625,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						81750,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						81875,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
 					[
-						82750,
-						0,
-						187.5,
-						"Alt Animation"
-					],
-					[
 						82000,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						82125,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						82250,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						82375,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						82500,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						82625,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
+					],
+					[
+						82750,
+						0,
+						187.5,
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
 					[
-						83750,
-						3,
-						187.5,
-						"Alt Animation"
-					],
-					[
 						83000,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						83125,
 						3,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						83250,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						83375,
 						2,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						83500,
 						1,
 						0,
-						"Alt Animation"
+						"Duo Note"
 					],
 					[
 						83625,
 						0,
 						0,
-						"Alt Animation"
+						"Duo Note"
+					],
+					[
+						83750,
+						3,
+						187.5,
+						"Duo Note"
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -3729,7 +3312,7 @@
 						187.5
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -3775,7 +3358,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -3816,7 +3399,7 @@
 						187.5
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -3857,7 +3440,7 @@
 						187.5
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -3894,16 +3477,16 @@
 					],
 					[
 						88750,
-						0,
+						1,
 						0
 					],
 					[
 						88875,
-						2,
+						0,
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -3959,7 +3542,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -4005,7 +3588,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -4091,7 +3674,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -4128,16 +3711,16 @@
 					],
 					[
 						92750,
-						0,
+						1,
 						0
 					],
 					[
 						92875,
-						3,
+						0,
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -4146,26 +3729,6 @@
 						93250,
 						0,
 						187.5
-					],
-					[
-						93000,
-						2,
-						0
-					],
-					[
-						93062.5,
-						3,
-						0
-					],
-					[
-						93125,
-						2,
-						0
-					],
-					[
-						93187.5,
-						3,
-						0
 					],
 					[
 						93500,
@@ -4186,9 +3749,29 @@
 						93875,
 						0,
 						0
+					],
+					[
+						93000,
+						3,
+						0
+					],
+					[
+						93062.5,
+						2,
+						0
+					],
+					[
+						93125,
+						3,
+						0
+					],
+					[
+						93187.5,
+						2,
+						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -4234,7 +3817,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -4320,7 +3903,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -4366,7 +3949,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -4412,7 +3995,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -4458,7 +4041,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -4504,7 +4087,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": false
 			},
 			{
@@ -4550,7 +4133,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -4596,7 +4179,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -4642,7 +4225,7 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
@@ -4688,11 +4271,11 @@
 						0
 					]
 				],
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"mustHitSection": true
 			},
 			{
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"typeOfSection": 0,
 				"sectionNotes": [],
 				"altAnim": false,
@@ -4704,7 +4287,7 @@
 			{
 				"sectionNotes": [],
 				"typeOfSection": 0,
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"gfSection": false,
 				"altAnim": false,
 				"mustHitSection": true,
@@ -4712,7 +4295,7 @@
 				"bpm": 240
 			},
 			{
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
 				"typeOfSection": 0,
 				"sectionNotes": [],
 				"altAnim": false,
@@ -4724,7 +4307,27 @@
 			{
 				"sectionNotes": [],
 				"typeOfSection": 0,
-				"lengthInSteps": 16,
+				"sectionBeats": 4,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 240
+			},
+			{
+				"sectionBeats": 4,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 240,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
 				"gfSection": false,
 				"altAnim": false,
 				"mustHitSection": true,
@@ -4733,20 +4336,19 @@
 			},
 			{
 				"gfSection": false,
-				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [],
 				"bpm": 240,
+				"sectionBeats": 4,
 				"changeBPM": false,
 				"mustHitSection": true
 			}
 		],
 		"player2": "mbest",
-		"player3": null,
 		"song": "SQUIDGAMES",
-		"validScore": true,
 		"needsVoices": true,
+		"validScore": true,
 		"bpm": 240,
 		"speed": 3
 	}

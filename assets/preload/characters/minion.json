@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				-100
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "MINION_IDLE",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "MINION_IDLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				170,
 				-54
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "MINION_LEFT",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "MINION_LEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				65,
 				-190
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "MINION_DOWN",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "MINION_DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				32,
 				-49
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "MINION_RIGHT",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "MINION_RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-65,
 				22
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "MINION_UP",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "MINION_UP"
 		}
 	],
 	"no_antialiasing": false,
@@ -66,8 +66,8 @@
 	"flip_x": false,
 	"healthbar_colors": [
 		255,
-		242,
-		0
+		233,
+		112
 	],
 	"camera_position": [
 		-180,

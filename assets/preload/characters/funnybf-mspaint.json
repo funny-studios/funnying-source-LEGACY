@@ -67,7 +67,7 @@
 			"name": "ms_hey"
 		}
 	],
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/mspaint_bf_assets",
 	"position": [
 		-100,

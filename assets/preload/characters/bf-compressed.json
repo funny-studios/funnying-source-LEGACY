@@ -144,7 +144,7 @@
 			"indices": []
 		},
 		{
-			"loop": true,
+			"loop": false,
 			"offsets": [
 				37,
 				5
@@ -207,6 +207,7 @@
 	],
 	"healthicon": "bf-compressed",
 	"flip_x": true,
+	"playable": true,
 	"healthbar_colors": [
 		49,
 		176,

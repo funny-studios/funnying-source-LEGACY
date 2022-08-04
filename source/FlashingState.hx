@@ -1,24 +1,21 @@
 package;
 
-import flixel.math.FlxMath;
-import flixel.system.frontEnds.WatchFrontEnd;
 import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.FlxSubState;
+import flixel.addons.transition.FlxTransitionableState;
+import flixel.effects.FlxFlicker;
+import flixel.graphics.FlxGraphic;
+import flixel.math.FlxMath;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
-import flixel.effects.FlxFlicker;
-import lime.app.Application;
-import flixel.addons.transition.FlxTransitionableState;
-import flixel.tweens.FlxTween;
 import flixel.util.FlxTimer;
 
 class FlashingState extends MusicBeatState
 {
 	public static var leftState:Bool = false;
 
-	var acceptImage:String = Paths.image('thumbsup');
-	var backImage:String = Paths.image('disagree');
+	var acceptImage:FlxGraphic = Paths.image('thumbsup');
+	var backImage:FlxGraphic = Paths.image('disagree');
 
 	var textY:Float = 0;
 
@@ -31,10 +28,6 @@ class FlashingState extends MusicBeatState
 	override function create()
 	{
 		super.create();
-
-		CoolUtil.precacheAsset(acceptImage);
-		CoolUtil.precacheAsset(backImage);
-
 		FlxG.sound.playMusic(Paths.music('warningTheme'), 1, true);
 
 		var fill:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.WHITE);
@@ -46,12 +39,10 @@ class FlashingState extends MusicBeatState
 		bg.x = FlxG.width - bg.width;
 		bg.screenCenter(Y);
 
-		warnText = new FlxText(0, 0, FlxG.width * .8,
-			"Hey, DUMBASS!\n
+		warnText = new FlxText(0, 0, FlxG.width * .8, "Hey, DUMBASS!\n
 			This mod has flashing lights and motion that can LITERALLY kill you\nif you're epileptic.\n
 			To ENABLE flashing lights, press ENTER.\nOtherwise, press ESCAPE or BACKSPACE to DISABLE them.\n
-			Stay safe.",
-		textSize);
+			Stay safe.", textSize);
 
 		warnText.setFormat(Paths.font("comic.ttf"), textSize, FlxColor.GREEN, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK, true);
 		warnText.bold = true;
@@ -66,6 +57,7 @@ class FlashingState extends MusicBeatState
 
 		add(warnText);
 	}
+
 	override function update(elapsed:Float)
 	{
 		FlxG.camera.zoom = FlxMath.lerp(FlxG.camera.initialZoom, FlxG.camera.zoom, CoolUtil.boundTo(1 - (elapsed * Math.PI), 0, 1));
@@ -83,14 +75,13 @@ class FlashingState extends MusicBeatState
 				FlxTransitionableState.skipNextTransOut = true;
 				FlxTransitionableState.skipNextTransIn = true;
 
-				ClientPrefs.reducedMotion = back;
-				ClientPrefs.flashing = accept;
+				ClientPrefs.prefs.set('reducedMotion', back);
+				ClientPrefs.prefs.set('flashing', accept);
 
 				ClientPrefs.saveSettings();
-
 				FlxG.camera.zoom += .2;
-				delta = 0;
 
+				delta = 0;
 				bg.loadGraphic(accept ? acceptImage : backImage);
 
 				bg.setGraphicSize(-1, Std.int(FlxG.height));
@@ -99,31 +90,37 @@ class FlashingState extends MusicBeatState
 				bg.x = FlxG.width - bg.width;
 				bg.screenCenter(Y);
 
-				if (FlxG.sound.music != null) FlxG.sound.music.stop();
+				if (FlxG.sound.music != null)
+					FlxG.sound.music.stop();
 				switch (accept)
 				{
 					default:
-					{
-						FlxG.sound.play(Paths.sound('cancelMenu'));
-						FlxG.camera.fade(FlxColor.BLACK, 2, false, function() {
-							new FlxTimer().start(.5, function (tmr:FlxTimer) {
-								MusicBeatState.switchState(new TitleState());
-							});
-						});
-					}
-					case true:
-					{
-						FlxG.sound.play(Paths.sound('confirmMenu'));
-						FlxG.camera.flash(FlxColor.GREEN, 1);
-
-						FlxFlicker.flicker(warnText, 1, .2, true, true, function(fkr:FlxFlicker) {
-							FlxG.camera.fade(FlxColor.BLACK, 1, false, function() {
-								new FlxTimer().start(.5, function (tmr:FlxTimer) {
+						{
+							FlxG.sound.play(Paths.sound('cancelMenu'));
+							FlxG.camera.fade(FlxColor.BLACK, 2, false, function()
+							{
+								new FlxTimer().start(.5, function(tmr:FlxTimer)
+								{
 									MusicBeatState.switchState(new TitleState());
 								});
 							});
-						});
-					}
+						}
+					case true:
+						{
+							FlxG.sound.play(Paths.sound('confirmMenu'));
+							FlxG.camera.flash(FlxColor.GREEN, 1);
+
+							FlxFlicker.flicker(warnText, 1, .2, true, true, function(fkr:FlxFlicker)
+							{
+								FlxG.camera.fade(FlxColor.BLACK, 1, false, function()
+								{
+									new FlxTimer().start(.5, function(tmr:FlxTimer)
+									{
+										MusicBeatState.switchState(new TitleState());
+									});
+								});
+							});
+						}
 				}
 			}
 		}

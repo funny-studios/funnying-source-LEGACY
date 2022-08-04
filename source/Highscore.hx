@@ -16,10 +16,11 @@ class Highscore
 	public static var songRating:Map<String, Float> = new Map<String, Float>();
 	#end
 
-
+	private static var dataArray:Array<String> = ["weekScores", "songScores", "songRating"];
 	public static function resetSong(song:String, diff:Int = 0):Void
 	{
 		var daSong:String = formatSong(song, diff);
+
 		setScore(daSong, 0);
 		setRating(daSong, 0);
 	}
@@ -32,16 +33,11 @@ class Highscore
 
 	public static function floorDecimal(value:Float, decimals:Int):Float
 	{
-		if (decimals < 1)
-		{
-			return Math.floor(value);
-		}
+		if (decimals < 1) return Math.floor(value);
 
 		var tempMult:Float = 1;
-		for (i in 0...decimals)
-		{
-			tempMult *= 10;
-		}
+		for (i in 0...decimals) tempMult *= 10;
+
 		var newValue:Float = Math.floor(value * tempMult);
 		return newValue / tempMult;
 	}
@@ -50,15 +46,20 @@ class Highscore
 	{
 		var daSong:String = formatSong(song, diff);
 
-		if (songScores.exists(daSong)) {
-			if (songScores.get(daSong) < score) {
+		if (songScores.exists(daSong))
+		{
+			if (songScores.get(daSong) < score)
+			{
 				setScore(daSong, score);
-				if (rating >= 0) setRating(daSong, rating);
+				if (rating >= 0)
+					setRating(daSong, rating);
 			}
 		}
-		else {
+		else
+		{
 			setScore(daSong, score);
-			if (rating >= 0) setRating(daSong, rating);
+			if (rating >= 0)
+				setRating(daSong, rating);
 		}
 	}
 
@@ -66,13 +67,8 @@ class Highscore
 	{
 		var daWeek:String = formatSong(week, diff);
 
-		if (weekScores.exists(daWeek))
-		{
-			if (weekScores.get(daWeek) < score)
-				setWeekScore(daWeek, score);
-		}
-		else
-			setWeekScore(daWeek, score);
+		if (weekScores.exists(daWeek)) { if (weekScores.get(daWeek) < score) setWeekScore(daWeek, score); }
+		else { setWeekScore(daWeek, score); }
 	}
 
 	/**
@@ -82,13 +78,16 @@ class Highscore
 	{
 		// Reminder that I don't need to format this song, it should come formatted!
 		songScores.set(song, score);
+
 		FlxG.save.data.songScores = songScores;
 		FlxG.save.flush();
 	}
+
 	static function setWeekScore(week:String, score:Int):Void
 	{
 		// Reminder that I don't need to format this song, it should come formatted!
 		weekScores.set(week, score);
+
 		FlxG.save.data.weekScores = weekScores;
 		FlxG.save.flush();
 	}
@@ -97,15 +96,12 @@ class Highscore
 	{
 		// Reminder that I don't need to format this song, it should come formatted!
 		songRating.set(song, rating);
+
 		FlxG.save.data.songRating = songRating;
 		FlxG.save.flush();
 	}
 
-	public static function formatSong(song:String, diff:Int):String
-	{
-		return Paths.formatToSongPath(song) + CoolUtil.getDifficultyFilePath(diff);
-	}
-
+	public static function formatSong(song:String, diff:Int):String { return Paths.formatToSongPath(song) + CoolUtil.getDifficultyFilePath(diff); }
 	public static function getScore(song:String, diff:Int):Int
 	{
 		var daSong:String = formatSong(song, diff);
@@ -135,17 +131,10 @@ class Highscore
 
 	public static function load():Void
 	{
-		if (FlxG.save.data.weekScores != null)
+		for (data in dataArray)
 		{
-			weekScores = FlxG.save.data.weekScores;
-		}
-		if (FlxG.save.data.songScores != null)
-		{
-			songScores = FlxG.save.data.songScores;
-		}
-		if (FlxG.save.data.songRating != null)
-		{
-			songRating = FlxG.save.data.songRating;
+			var value:Dynamic = Reflect.getProperty(FlxG.save.data, data);
+			if (value != null) Reflect.setProperty(Highscore, data, value);
 		}
 	}
 }

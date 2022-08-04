@@ -1,16 +1,14 @@
 package;
 
+import openfl.utils.Assets;
 import Section.SwagSection;
 import haxe.Json;
-import haxe.format.JsonParser;
-import lime.utils.Assets;
-
-#if sys
-import sys.io.File;
-import sys.FileSystem;
-#end
 
 using StringTools;
+#if sys
+import sys.io.File;
+#end
+
 
 typedef SwagSong =
 {
@@ -23,13 +21,11 @@ typedef SwagSong =
 
 	var player1:String;
 	var player2:String;
-	var player3:String; //deprecated, now replaced by gfVersion
-	var gfVersion:String;
 	var stage:String;
-
-	var arrowSkin:String;
-	var splashSkin:String;
 	var validScore:Bool;
+
+	@:optional var arrowSkin:String;
+	@:optional var splashSkin:String;
 }
 
 class Song
@@ -45,18 +41,10 @@ class Song
 	public var stage:String;
 
 	public var player1:String = 'bf';
-	public var player2:String = 'gf';
-	public var player3:String = 'gf'; //deprecated
-	public var gfVersion:String = 'gf';
+	public var player2:String = 'dad';
 
-	private static function onLoadJson(songJson:SwagSong) // Convert old charts to newest format
+	private static function onLoadJson(songJson:Dynamic) // Convert old charts to newest format
 	{
-		if (songJson.gfVersion == null)
-		{
-			songJson.gfVersion = songJson.player3;
-			songJson.player3 = null;
-		}
-
 		if (songJson.events == null)
 		{
 			songJson.events = [];
@@ -76,7 +64,8 @@ class Song
 						notes.remove(note);
 						len = notes.length;
 					}
-					else i++;
+					else
+						i++;
 				}
 			}
 		}
@@ -91,24 +80,14 @@ class Song
 
 	public static function loadFromJson(jsonInput:String, ?folder:String):SwagSong
 	{
-		var rawJson = null;
+		var rawJson:String = null;
 
 		var formattedFolder:String = Paths.formatToSongPath(folder);
 		var formattedSong:String = Paths.formatToSongPath(jsonInput);
 
-		if (rawJson == null) {
-			#if sys
-			rawJson = File.getContent(Paths.json(formattedFolder + '/' + formattedSong)).trim();
-			#else
-			rawJson = Assets.getText(Paths.json(formattedFolder + '/' + formattedSong)).trim();
-			#end
-		}
-
-		while (!rawJson.endsWith("}"))
-		{
-			rawJson = rawJson.substr(0, rawJson.length - 1);
-			// LOL GOING THROUGH THE BULLSHIT TO CLEAN IDK WHATS STRANGE
-		}
+		if (rawJson == null) rawJson = #if sys File.getContent #else Assets.getText #end(Paths.json('$formattedFolder/$formattedSong')).trim();
+		// LOL GOING THROUGH THE BULLSHIT TO CLEAN IDK WHATS STRANGE
+		while (!rawJson.endsWith("}")) rawJson = rawJson.substr(0, rawJson.length - 1);
 
 		// FIX THE CASTING ON WINDOWS/NATIVE
 		// Windows???
@@ -127,7 +106,8 @@ class Song
 				daBpm = songData.bpm; */
 
 		var songJson:SwagSong = parseJSONshit(rawJson);
-		if (jsonInput != 'events') StageData.loadDirectory(songJson);
+		if (jsonInput != 'events')
+			StageData.loadDirectory(songJson);
 		onLoadJson(songJson);
 		return songJson;
 	}

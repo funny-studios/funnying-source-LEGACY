@@ -1,27 +1,75 @@
 {
 	"songs": [
-		["Relapse", "funnybf-relapse", [135, 135, 135]],
-		["jn", "funnybf", [91, 175, 223]],
-		["Funny Guy Snog", "funnybf", [91, 175, 223]],
-		["banana", "minion", [255, 242, 0]],
-		["braindead", "funnybf-ms", [239, 58, 47]],
-		["SQUIDGAMES", "mbest", [227, 187, 187]]
+		[
+			"Relapse",
+			"funnybf-relapse",
+			[
+				135,
+				135,
+				135
+			]
+		],
+		[
+			"jn",
+			"funnybf",
+			[
+				91,
+				175,
+				223
+			]
+		],
+		[
+			"Funny Guy Snog",
+			"funnybf",
+			[
+				91,
+				175,
+				223
+			]
+		],
+		[
+			"banana",
+			"minion",
+			[
+				255,
+				242,
+				0
+			]
+		],
+		[
+			"braindead",
+			"funnybf-ms",
+			[
+				239,
+				58,
+				47
+			]
+		],
+		[
+			"the kong",
+			"kong",
+			[
+				248,
+				194,
+				132
+			]
+		],
+		[
+			"SQUIDGAMES",
+			"mbest",
+			[
+				227,
+				187,
+				187
+			]
+		]
 	],
-
 	"difficulties": "Normal",
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-
-	"weekBackground": "",
+	"weekBackground": null,
 	"storyName": "",
-
-	"weekBefore": "trio",
-	"weekName": "Freeplay Songs",
+	"weekBefore": null,
+	"weekName": "Extras",
 	"startUnlocked": false,
-
 	"hideStoryMode": true,
 	"hideFreeplay": false
 }
